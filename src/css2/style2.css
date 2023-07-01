@@ -1,0 +1,47 @@
+#register{}
+  .dark-overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    min-height: 400px;}
+  .reg{
+    color: red;
+    background-image: url(../images/elec.jpg);
+    background-position: center;
+    height: auto;
+    width: auto;}
+  .myforms{
+    font-size: 20px;
+    font-family: monospace;}
+  .myforms input[type="text"] {
+        color: black;
+        font-size: 18px;
+        width: 80%;
+        padding: 10px;
+        margin-left: 55px;
+        margin-bottom: 5px;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);}
+  .myforms input[type="password"],input[type="tel"]{
+        color: #191e21;
+        font-size: 18px;
+        width: 80%;
+        padding: 10px;
+        margin-left: 55px;
+        margin-bottom: 5px;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);}
+  .myforms label{
+    padding: 10px;
+    margin-left: 55px;}
+  .butt{
+    padding-left: 54px;
+    margin-top: 15px;
+  }
+  .myforms .butt input[type="submit"]{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: black;}
+  .myforms .butt input[type="submit"]:hover{
+      background-color: #F45C5D;}

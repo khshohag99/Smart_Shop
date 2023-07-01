@@ -1,0 +1,204 @@
+.navbar{
+  border-bottom: 5px solid #008ed6;
+  background: #000;
+  opacity:0.8;
+  .nav-item{
+    padding-left:1em !important;
+  }
+  .nav-link{
+    text-transform: uppercase;
+  }
+
+  }
+
+
+.carousel-item{
+
+  height: 500px;
+}
+.carousel-img-1{
+
+  background: url('../img/camera-contemporary-device-325153.jpg');
+  background-size: cover;
+
+}
+.carousel-img-2{
+  background: url('../img/buttons-close-up-console-1298601.jpg');
+  background-size: cover;
+}
+
+.carousel-img-3{
+  background: url('../img/adult-boy-electronic-1261820.jpg');
+  background-size: cover;
+}
+
+
+  .far{
+    font-size:50px;}
+  .fas{
+      font-size:50px;}
+
+#Exploremore{
+  position: relative; /* to make dark-overlay relate with it */
+  background: url('../img/apple-coffee-desk-356056.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%}}
+
+
+
+
+#home-video{
+  position: relative; /* to make dark-overlay relate with it */
+  background: url('../img/blur-close-up-dawn-997130.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;}
+
+
+
+.fab{
+  font-size:50px;
+}
+#photogallery{
+  img{
+    min-height: 250px;
+  }
+}
+#copyright{
+  background: #000;
+}
+
+/*About us */
+#page-header{
+  background: url('../img/background-pine-texture-82256.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#about-info{
+  img{
+    width:450px;
+    height:450px;
+}
+}
+#icon-boxes{
+  .fa{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+}
+/* end of About us*/
+
+/*Categories*/
+#Categories-page-header{
+  background: url('../img/devices-electronics-laptop-159376.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+/* end of Categories*/
+
+/*Contact */
+#Contact-header{
+  background: url('../img/4k-wallpaper-architecture-background-1308624.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+
+}
+#Mobile-page-header{
+  background: url('../img/art-background-brick-wall-1227511.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+
+}
+#Prod_more-header{
+  background: url('../img/4k-wallpaper-architecture-background-1308624.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+/*End of Contact */
+
+#Catering-page-header{
+  background: url('../img/cell-phone-cellphone-dark-404280.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+#Catering-Service-header{
+  background: url('../img/catering/adult-agriculture-commerce-2042085.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#Catering-Service-divider{
+  background: url('../img/catering/barbecue-bbq-chicken-8572.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#Community-Service-page-header{
+  background: url('../img/art-bark-bright-983200.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}#Decorator-page-header{
+  background: url('../img/abstract-art-blur-749386.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#Transportation-page-header{
+  background: url('../img/transportation.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+
+
+/*reg page */
+#home-reg-section{
+  background: url('../img/4k-wallpaper-audi-audi-r8-1402787.jpg') no-repeat center top;  /*  "../" backspace one folder and get into img */
+  background-size:cover;
+  background-attachment: fixed;
+  /* max-height: 450px; */
+}
+/*admin check page */
+#admin_check{
+  background: url('../img/close-up-coding-computer-1342460.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+@@media (max-width:767px) {
+  #Exploremore{
+    min-height:350px;
+  }
+
+}
+@media(max-width:480px)  {
+  .carousel{
+    h2{
+      font-size: 2.5 rem;
+    }
+  }
+  #Exploremore{
+    min-height:400px;
+  }
+
+}

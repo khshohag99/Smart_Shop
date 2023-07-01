@@ -1,0 +1,217 @@
+html,
+body {
+    margin: 0;
+    font-size: 100%;
+    background: #fff;
+    font-family: monospace;
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: .8;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+input[type="button"],
+input[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: monospace;
+}
+
+p {
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.9;
+    color: #999;
+    font-family: monospace;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin: 0;
+}
+
+
+
+
+/*-- //header Lists --*/
+
+/*-- //top-header --*/
+
+/*-- header-bottom --*/
+
+/*-- search --*/
+
+.agileits_search input[type="search"] {
+    color: #191e21;
+    width: 80%;
+    padding: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
+}
+
+.agileits_search button {
+    border-radius: 2;
+    background: #F45C5D;
+    font-size: 13px;
+    color: #fff;
+    width: 10%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
+    padding: 10px;
+}
+
+/*-- //search --*/
+
+/*-- logo --*/
+
+.logo_agile h1 a {
+    color: #F45C5D;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.logo_agile h1 a:hover {
+    text-decoration: none;
+}
+
+.logo_agile h1 a img {
+    position: absolute;
+    left: -40%;
+    top: -23px;
+}
+
+.logo_agile {
+    padding: 26px 0 21px;
+}
+
+/*-- //logo --*/
+
+
+/*-- navigation --*/
+
+.navbar-inner {
+
+    background: #f8f9fa;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #000;
+    padding-right: 25px;
+}
+
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #F45C5D;
+}
+
+/*-- navigation-dropdown --*/
+
+.agile_inner_drop_nav_info {
+    min-width: 500px;
+}
+
+ul.multi-column-dropdown li {
+    list-style-type: none;
+    line-height: 3em;
+}
+
+ul.multi-column-dropdown li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #545454;
+    letter-spacing: 1px;
+}
+
+ul.multi-column-dropdown li a:hover {
+    color: #F45C5D;
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+    background-color: #F45C5D;
+}
+
+.dropdown-item {
+    font-size: 5px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #0879c9;
+}
+
+/*-- //navigation-dropdown --*/
+
+/*-- //navigation --*/
+/*--//login button--*/
+#nav{}
+
+  .navbar-inner .log{
+    font-size: 15px;
+    border-radius: 2;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 80px;
+  }
+#copyright{
+  background-color: lightblue;}
+
+#mobi{
+  background-image: url(../images/color.jpg);
+  color: inherit;}
+
+#s{
+  border: 2px solid lightblue;
+  padding: 5px;
+  border-radius: 25px ;}
+
+#mobile{}
+  .card{
+    background-color: #d9dee0;
+  }
